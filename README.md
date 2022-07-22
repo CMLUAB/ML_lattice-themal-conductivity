@@ -2,9 +2,9 @@
 # Description
 This repository contains the Python code and ML data used in our study to search for materials with low lattice thermal conductivity.
 # Data
-The target.json file contains the final dataset for feature generation. The feature.csv file contains the final data set in our ML training. The data information includes 61 features.
+The target.json file contains the compound names for feature generation and the corresponding target values of lattice thermal conductivity. The feature.csv file contains the final data set for training our machine learning models; the information includes 1900 compounds each with 61 features.
 # Codes
-Once the feature.csv is ready, we can go into the code folder and build the ML model for the lattice thermal conductivity. Please go to each folder for details.
+The codes for feature generation and for training machine learning models are provided in the above folders. One can go to the "Example of loading model and making prediction" folder to use our model for predicting lattice thermal conductivity. Please see further details in the folder.
 # Environment
 - python 3.7
 - sklearn 0.23.2
